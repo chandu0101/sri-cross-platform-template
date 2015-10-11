@@ -3,7 +3,7 @@ package sri.templates.crossplatform.universal.components
 import sri.core._
 import sri.universal.all._
 import sri.universal.components._
-import sri.universal.styles.SriStyleSheet
+import sri.universal.styles.UniversalStyleSheet
 
 import scala.scalajs.js
 import scala.scalajs.js.annotation.ScalaJSDefined
@@ -27,7 +27,7 @@ object HelloSri {
     }
   }
 
-  object styles extends SriStyleSheet {
+  object styles extends UniversalStyleSheet {
 
     val container = style(flexOne,
       backgroundColor := "rgb(162, 3, 112)",
