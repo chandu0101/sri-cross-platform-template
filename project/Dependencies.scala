@@ -14,7 +14,7 @@ object Dependencies {
 
 
 
-  val sriVersion = "0.1.0"
+  val sriVersion = "0.2.0"
 
 
   val utestJS = libraryDependencies += "com.lihaoyi" %%% "utest" % "0.3.0" % Test
