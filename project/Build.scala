@@ -41,14 +41,6 @@ object SriCrossPlatform extends Build {
     //    jsEnv in Test := new NodeJSEnv()
   )
 
-
-  val utestSettings = Seq(utestJS,
-    scalaJSStage in Global := FastOptStage,
-    jsDependencies += RuntimeDOM,
-    testFrameworks += new TestFramework("utest.runner.Framework")
-  )
-
-
   // ================================ Module definitions  ================================ //
   lazy val SriCrossPlatform = DefProject(".", "root")
     .aggregate(universal, web, mobile)
@@ -72,5 +64,6 @@ object SriCrossPlatform extends Build {
     .dependsOn(universal)
     .settings(mobileModuleDeps)
     .settings(mobilelauncher)
+    .settings(mobileLauncherFast)
 
 }

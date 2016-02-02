@@ -10,14 +10,8 @@ object Dependencies {
 
   val scalatestVersion = "3.0.0-M6"
 
-  val utestVersion = "0.3.0"
 
-
-
-  val sriVersion = "0.2.0"
-
-
-  val utestJS = libraryDependencies += "com.lihaoyi" %%% "utest" % "0.3.0" % Test
+  val sriVersion = "0.3.0"
 
   val scalatestJS = libraryDependencies += "org.scalatest" %%% "scalatest" % scalatestVersion % Test
 

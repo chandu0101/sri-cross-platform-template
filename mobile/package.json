@@ -1,11 +1,11 @@
 {
-  "name": "sri-mobile-template",
-  "version": "0.2.0",
+  "name": "SriCrossPlatformTemplate",
+  "version": "0.3.0",
   "private": true,
   "scripts": {
     "start": "node_modules/react-native/packager/packager.sh"
   },
   "dependencies": {
-    "react-native": "^0.13.1"
+    "react-native": "0.19.0"
   }
 }
